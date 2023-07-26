@@ -1,0 +1,308 @@
+body{
+background-image: url(Images/30\ Photos\ Taken\ From\ The\ International\ Space\ Station\ That\ Are\ Literally\ Out\ Of\ This\ World.png);
+font-family: 'Quicksand', sans-serif;
+color:#f1c47e;
+text-align: center;
+background-position: center center;
+/* Para que la imagen de fondo no se repita */
+background-repeat: no-repeat;
+/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+background-attachment: fixed;
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+background-size: cover;
+/* Se muestra un color de fondo mientras se está cargando la imagen de fondo o si hay problemas para cargarla */
+background-color: beige;
+}
+
+header{
+    width: 100%;
+}
+header nav{
+    display: flex;
+}
+header .nav-left-section{
+      /*eliminar viñetas*/
+      list-style: none;
+      width: 50%;
+      /*Altura automática*/
+      display: flex;
+      justify-content: left;
+      
+}
+nav .nav-left-section .logotipo{
+    background-image: url('https://images.vexels.com/media/users/3/301786/isolated/preview/5a62249ffb8e637e6e0d23a93028546f-personaje-de-dibujos-animados-de-nave-espacial-lindo-y-sonriente.png');
+    height: 70px;
+    width: 70px;
+    background-size: contain;
+}
+
+header .nav-right-section{
+    /*eliminar viñetas*/
+    list-style: none;
+    width: 50%;
+    /*Altura automática*/
+    height: auto;
+    display: flex;
+    justify-content: right;
+
+}
+
+nav .nav-right-section a{
+      color: wheat;
+      text-decoration: none;
+      margin-right: 50px;
+      background-size: contain;
+    font-size: 25px;
+}
+
+/*TITULO PRINCIPAL*/
+.principal{
+    margin-top: 1%;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.title-web{
+    font-family: 'Libre Baskerville', serif;
+    color: #fffbbd;
+    text-align: center;
+    font-size: 50px;
+    width: 100%;
+    height: auto;
+}
+.subtitle{color: pink;
+    font-family: 'Libre Baskerville', serif;   
+    font-size: 30px;
+
+}
+
+/*MAIN*/
+main .primer-apartado{
+    background-color: black;
+    height: 500px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 1%;
+}
+main .primer-apartado .titulo{
+    display: flex;
+    justify-content: center;
+    color: pink;
+    font-size: 30px;
+   
+}
+
+main .primer-apartado .contenedor-1{
+
+    height: 85%;
+    width: 100%;
+    display: flex;
+}
+.nasa{
+    display: flex;
+    text-align: left;
+    padding: 10%;
+    width: 48%;
+    height:auto ;
+    border-radius: 400px;
+}
+
+main .primer-apartado  .contenedor-1 .contenedor-1-texto{
+  
+    margin-top: 3%;
+    margin-bottom: 6%;
+    margin-right: 6%;
+    height: 70%;
+    width: 50%;
+    justify-content: center;
+    padding: 3%;
+    text-align: justify;
+}
+
+.contenedor-1-texto h3{
+    display: inline-block;
+    
+    margin-top: 10px;
+ 
+}
+.contenedor-1-texto p{
+    margin-top: 5px;
+    
+}
+
+
+
+
+.luna{text-align: center;
+    width: 200px;
+    border-radius: 400px;
+}
+
+main .segundo-apartado{
+    background-color: black;
+    height: 400px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 1%;
+    margin-top: 2%;
+}
+main .segundo-apartado .titulo2{
+    
+    justify-content: center;
+    color: pink;
+    font-size: 30px;
+
+}
+main .segundo-apartado .contenedor-2 .cards{
+    
+    height: 350px;
+}
+.cards{
+    display: flex;
+}
+
+.cards .card{
+    
+    display: flex;
+    width: 40%;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.oladecalor{
+    width: 150px;
+    border-radius:100px ;
+    margin-right: 20px;
+}
+
+
+main .segundo-apartado  .contenedor-2 .contenido-card{
+   
+    margin-right: 6%;
+    height: 70%;
+    width: 50%;
+    justify-content: center;
+    padding: 3%;
+}
+
+.contenido-card a{
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: small;
+    color: pink;
+    /*linea debajo de texto*/
+    text-decoration:none;
+
+}
+.contenido-card p{
+    margin-top: 5px;
+    font-size: x-small;
+    text-align: justify;
+}
+
+.web{
+    width: 150px;
+    border-radius:100px ;
+    margin-right: 20px;
+}
+
+.hubble{ width: 150px;
+    border-radius:100px ;
+    margin-right: 20px;
+}
+
+
+main .tercer-apartado{
+    background-color: rgb(10, 10, 10);
+    height: 400px;
+    margin:5px 0;
+    color: blanchedalmond;
+}
+main .tercer-apartado h2{
+    justify-content: center;
+    color: pink;
+    font-size: 30px;
+}
+main .tercer-apartado h3{
+    justify-content: center;
+    color: pink;
+    font-size: 30px;
+    text-align: center
+}
+
+
+main .tercer-apartado .contenedor-3{
+    
+    height: 200px;
+    justify-content: center;
+    text-align: justify;
+    padding: 1%;
+}
+main .cuarto-apartado{
+   
+    height: 300px;
+    text-align: center;
+    width: 1000px;
+    margin: 10px 240px;
+}
+main .cuarto-apartado .sistemasolar{
+    text-align: center;
+}
+
+main .cuarto-apartado .contenedor-4{
+   
+    height: 200px;
+    margin-right: 20px;
+    margin-left:20px ;
+}
+main .cuarto-apartado .contenedor-4 .sistema-inf{
+   
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    text-align: justify;
+    padding-left: 2%;
+}
+.sistemasolar{
+    width:auto;
+    padding-left: 2%;
+    border-radius: 500px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+selector{
+    propiedad: valor;
+}
